@@ -19,9 +19,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
+    <groupId>com.evolvedbinary.thirdparty.org.codehaus.mojo</groupId>
     <artifactId>keytool</artifactId>
-    <groupId>org.codehaus.mojo</groupId>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.6.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>keytool-maven-plugin</artifactId>
@@ -36,6 +36,12 @@
   <prerequisites>
     <maven>${mavenVersion}</maven>
   </prerequisites>
+
+  <scm>
+    <connection>scm:git:https://github.com/evolvedbinary/keytool.git</connection>
+    <developerConnection>scm:git:https://github.com/evolvedbinary/keytool.git</developerConnection>
+    <url>scm:git:https://github.com/evolvedbinary/keytool.git</url>
+  </scm>
 
   <dependencies>
     <dependency>
@@ -235,7 +241,7 @@
             <version>1.0-alpha-2</version>
             <configuration>
               <locales>
-                <locale>fr</locale>
+                <locale>en</locale>
               </locales>
             </configuration>
           </plugin>

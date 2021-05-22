@@ -50,6 +50,6 @@
   </profiles>
 
   <pluginGroups>
-    <pluginGroup>org.codehaus.mojo</pluginGroup>
+    <pluginGroup>com.evolvedbinary.thirdparty.org.codehaus.mojo</pluginGroup>
   </pluginGroups>
 </settings>

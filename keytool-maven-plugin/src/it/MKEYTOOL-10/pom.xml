@@ -19,7 +19,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.codehaus.mojo</groupId>
+  <groupId>com.evolvedbinary.thirdparty.org.codehaus.mojo</groupId>
   <artifactId>MKEYTOOL-10</artifactId>
   <version>@project.version@</version>
   <description>Test Case for MKEYTOOL-10</description>
@@ -27,7 +27,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>${project.groupId}</groupId>
         <artifactId>keytool-maven-plugin</artifactId>
         <version>@project.version@</version>
         <executions>

@@ -24,8 +24,9 @@
     <version>33</version>
   </parent>
 
+  <groupId>com.evolvedbinary.thirdparty.org.codehaus.mojo</groupId>
   <artifactId>keytool</artifactId>
-  <version>1.6-SNAPSHOT</version>
+  <version>1.6.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Keytool: Project</name>
@@ -76,6 +77,11 @@
       <email>j.mayrbaeurl@yahoo.de</email>
       <timezone>+1</timezone>
     </contributor>
+    <contributor>
+      <name>Adam Retter</name>
+      <email>adam@evolvedbinary.com</email>
+      <timezone>CET</timezone>
+    </contributor>
   </contributors>
 
   <prerequisites>
@@ -92,22 +98,23 @@
   </modules>
 
   <scm>
-    <connection>scm:git:git@github.com:mojohaus/keytool.git</connection>
-    <developerConnection>scm:git:git@github.com:mojohaus/keytool.git</developerConnection>
-    <url>https://github.com/mojohaus/keytool</url>
+    <connection>scm:git:https://github.com/evolvedbinary/keytool.git</connection>
+    <developerConnection>scm:git:https://github.com/evolvedbinary/keytool.git</developerConnection>
+    <url>scm:git:https://github.com/evolvedbinary/keytool.git</url>
   </scm>
+
   <issueManagement>
     <system>github</system>
-    <url>https://github.com/mojohaus/keytool/issues/</url>
+    <url>https://github.com/evolvedbinary/keytool/issues/</url>
   </issueManagement>
   <ciManagement>
-    <system>BAMBOO</system>
-    <url>http://bamboo.ci.codehaus.org/browse/MOJO-MKEYTOOL/</url>
+    <system>github</system>
+    <url>https://github.com/evolvedbinary/keytool/actions/workflows/ci.yml</url>
   </ciManagement>
   <distributionManagement>
     <site>
       <id>github</id>
-      <url>scm:git:git@github.com:mojohaus/keytool.git</url>
+      <url>https://github.com/evolvedbinary/keytool.git</url>
     </site>
   </distributionManagement>
 
@@ -243,7 +250,7 @@
             <version>1.0-alpha-2</version>
             <configuration>
               <locales>
-                <locale>fr</locale>
+                <locale>en</locale>
               </locales>
             </configuration>
           </plugin>
