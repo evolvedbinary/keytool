@@ -215,9 +215,29 @@
             <scmBranch>gh-pages</scmBranch> <!-- branch where to deploy -->
           </configuration>
         </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5.3</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.6</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <tagNameFormat>keytool-@{project.version}</tagNameFormat>
+          <useReleaseProfile>true</useReleaseProfile>
+          <releaseProfiles>keytool-release</releaseProfiles>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 
@@ -256,6 +276,32 @@
           </plugin>
         </plugins>
       </reporting>
+    </profile>
+
+    <profile>
+      <!-- NOTE: this is used from the maven-release-plugin -->
+      <id>keytool-release</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+                <configuration>
+                  <keyname>6A540119</keyname>
+                  <defaultKeyring>false</defaultKeyring>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
     </profile>
 
   </profiles>
