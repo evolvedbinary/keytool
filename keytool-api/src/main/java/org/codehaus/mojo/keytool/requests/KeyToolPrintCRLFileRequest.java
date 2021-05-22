@@ -21,7 +21,7 @@ import java.io.File;
 /**
  * Request to print the content of a CRL file using the KeyTool tool.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public class KeyToolPrintCRLFileRequest
@@ -30,7 +30,7 @@ public class KeyToolPrintCRLFileRequest
 
     /**
      * Input file name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private File file;

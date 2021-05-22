@@ -19,7 +19,7 @@ package org.codehaus.mojo.keytool.requests;
 /**
  * Request to change the store password of a keystore using the KeyTool tool.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public class KeyToolChangeStorePasswordRequest
@@ -28,7 +28,7 @@ public class KeyToolChangeStorePasswordRequest
 
     /**
      * New password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String newPassword;

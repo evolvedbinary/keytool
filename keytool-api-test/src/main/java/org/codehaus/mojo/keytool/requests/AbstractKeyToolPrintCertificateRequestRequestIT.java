@@ -23,7 +23,7 @@ import java.io.File;
 /**
  * Test the {@link org.codehaus.mojo.keytool.requests.KeyToolPrintCertificateRequestRequest}.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public abstract class AbstractKeyToolPrintCertificateRequestRequestIT

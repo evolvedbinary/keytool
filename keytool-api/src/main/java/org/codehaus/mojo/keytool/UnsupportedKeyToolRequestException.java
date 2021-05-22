@@ -21,7 +21,7 @@ import org.apache.maven.shared.utils.cli.javatool.JavaToolException;
 /**
  * Signals that a request can not be consumed by the underlined keytool implementation.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.3
  */
 public class UnsupportedKeyToolRequestException

@@ -19,7 +19,7 @@ package org.codehaus.mojo.keytool.requests;
 /**
  * Request to import all entries of a keystore to another keystore using the KeyTool tool.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public class KeyToolImportKeystoreRequest
@@ -28,119 +28,119 @@ public class KeyToolImportKeystoreRequest
 
     /**
      * Source keystore name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String srckeystore;
 
     /**
      * Destination keystore name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String destkeystore;
 
     /**
      * Source keystore type.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String srcstoretype;
 
     /**
      * Destination keystore type.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String deststoretype;
 
     /**
      * Source keystore password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String srcstorepass;
 
     /**
      * Destination keystore password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String deststorepass;
 
     /**
      * Source keystore password protected.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private boolean srcprotected;
 
     /**
      * Source keystore provider name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String srcprovidername;
 
     /**
      * Destination keystore provider name.
-     * <p/>
+     *
      * See <a hresf="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String destprovidername;
 
     /**
      * Source alias.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String srcalias;
 
     /**
      * Destination alias.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String destalias;
 
     /**
      * Source key password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String srckeypass;
 
     /**
      * Destination key password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String destkeypass;
 
     /**
      * Do not prompt.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private boolean noprompt;
 
     /**
      * Provider class name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String providerclass;
 
     /**
      * Provider argument.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String providerarg;
 
     /**
      * Provider classpath.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String providerpath;

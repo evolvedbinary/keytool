@@ -22,7 +22,7 @@ import org.apache.maven.plugins.annotations.Parameter;
  * Abstract mojo to execute a {@link KeyToolRequestWithKeyStoreAndAliasParameters} request.
  *
  * @param <R> generic type of request used by the mojo
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 public abstract class AbstractKeyToolRequestWithKeyStoreAndAliasParametersMojo<R extends KeyToolRequestWithKeyStoreAndAliasParameters>
@@ -30,7 +30,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreAndAliasParametersMojo<R
 {
     /**
      * Password through protected mechanism.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -40,7 +40,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreAndAliasParametersMojo<R
 
     /**
      * Alias name of the entry to process.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     @Parameter

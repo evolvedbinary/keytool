@@ -21,7 +21,7 @@ import org.codehaus.mojo.keytool.KeyToolRequestWithKeyStoreAndAliasParameters;
 /**
  * Specifies the commons parameters used to control a key tool invocation which have propviders options.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @version $Id$
  * @since 1.1
  */
@@ -32,14 +32,14 @@ public abstract class AbstractKeyToolRequestWithKeyStoreAndAliasParameters
 
     /**
      * Password through protected mechanism.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private boolean passwordProtected;
 
     /**
      * Alias name of the entry to process.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String alias;

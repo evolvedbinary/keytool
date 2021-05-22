@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * Request to do a Generate certificate request using the KeyTool tool.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public class KeyToolGenerateCertificateRequestRequest
@@ -31,35 +31,35 @@ public class KeyToolGenerateCertificateRequestRequest
 {
     /**
      * Signature algorithm name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String sigalg;
 
     /**
      * X.509 extension.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private List<String> exts = new ArrayList<String>();
 
     /**
      * Distinguished name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String dname;
 
     /**
      * Output file name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private File file;
 
     /**
      * Key password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String keypass;

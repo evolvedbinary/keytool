@@ -21,7 +21,7 @@ import java.io.File;
 /**
  * Request to print the content of a certificate using the KeyTool tool.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public class KeyToolPrintCertificateRequest
@@ -30,28 +30,28 @@ public class KeyToolPrintCertificateRequest
 
     /**
      * Output in RFC style.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private boolean rfc;
 
     /**
      * Input file name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private File file;
 
     /**
      * SSL server host and port.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private String sslserver;
 
     /**
      * Signed jar file.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     private File jarfile;

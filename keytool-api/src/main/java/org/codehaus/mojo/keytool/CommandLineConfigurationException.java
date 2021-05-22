@@ -19,7 +19,7 @@ package org.codehaus.mojo.keytool;
 /**
  * Signals an error during the construction of the command line used to invoke key tool.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @version $Id$
  * @since 1.1
  */

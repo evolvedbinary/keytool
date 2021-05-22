@@ -28,14 +28,14 @@ import java.util.List;
 
 /**
  * To generate certificate from a certificate request from a keystore.
- * <p/>
+ *
  * Implemented as a wrapper around the SDK {@code keytool -gencert} command.
- * <p/>
+ *
  * <strong>Note</strong> This operation was not implemented by the keytool before jdk 1.7.
- * <p/>
+ *
  * See <a href="http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html">keystore documentation</a>.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 @Mojo( name = "generateCertificate", requiresProject = true )
@@ -44,7 +44,7 @@ public class GenerateCertificateMojo
 {
     /**
      * Key password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -54,7 +54,7 @@ public class GenerateCertificateMojo
 
     /**
      * Output in RFC style.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -64,7 +64,7 @@ public class GenerateCertificateMojo
 
     /**
      * input file name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -74,7 +74,7 @@ public class GenerateCertificateMojo
 
     /**
      * output file name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -84,7 +84,7 @@ public class GenerateCertificateMojo
 
     /**
      * Signature algorithm name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -94,7 +94,7 @@ public class GenerateCertificateMojo
 
     /**
      * Distinguished name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -104,7 +104,7 @@ public class GenerateCertificateMojo
 
     /**
      * Certificate validity start date/time.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -114,7 +114,7 @@ public class GenerateCertificateMojo
 
     /**
      * X.509 extension.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -127,7 +127,7 @@ public class GenerateCertificateMojo
 
     /**
      * X.509 extension.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.6
@@ -137,7 +137,7 @@ public class GenerateCertificateMojo
 
     /**
      * Validity number of days.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2

@@ -43,7 +43,7 @@ public abstract class AbstractKeyToolMojo
 
     /**
      * Enable verbose mode (in mojo and in keytool command).
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     @Parameter( defaultValue = "false" )

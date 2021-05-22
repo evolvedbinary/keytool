@@ -30,7 +30,7 @@ import java.net.URL;
 /**
  * Input resources fixtures.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.3
  */
 public class ResourceFixtures

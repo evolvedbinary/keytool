@@ -21,12 +21,12 @@ import org.codehaus.mojo.keytool.requests.KeyToolDeleteRequest;
 
 /**
  * To delete an entry alias from a keystore.
- * <p/>
+ *
  * Implemented as a wrapper around the SDK {@code keytool -delete} command.
- * <p/>
+ *
  * See <a href="http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html">keystore documentation</a>.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 @Mojo( name = "deleteAlias", requiresProject = true )

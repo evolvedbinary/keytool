@@ -21,7 +21,7 @@ import java.io.File;
 /**
  * Request Fixtures.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.3
  */
 public class KeyToolRequestFixtures

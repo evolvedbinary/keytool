@@ -27,7 +27,7 @@ import java.net.MalformedURLException;
  * Abstract mojo to execute a {@link KeyToolRequestWithKeyStoreParameters} request.
  *
  * @param <R> generic type of request used by the mojo
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends KeyToolRequestWithKeyStoreParameters>
@@ -36,7 +36,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends
 
     /**
      * Keystore location.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     @Parameter
@@ -44,7 +44,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends
 
     /**
      * Keystore type.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     @Parameter
@@ -52,7 +52,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends
 
     /**
      * Keystore password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      */
     @Parameter( alias = "storepass" )
@@ -60,7 +60,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends
 
     /**
      * Provider name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -70,7 +70,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends
 
     /**
      * Provider class name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -80,7 +80,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends
 
     /**
      * Provider argument.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -90,7 +90,7 @@ public abstract class AbstractKeyToolRequestWithKeyStoreParametersMojo<R extends
 
     /**
      * Provider classpath.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2

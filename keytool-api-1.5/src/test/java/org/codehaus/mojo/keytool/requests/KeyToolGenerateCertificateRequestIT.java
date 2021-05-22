@@ -23,7 +23,7 @@ import java.io.File;
 /**
  * Test the {@link KeyToolGenerateCertificateRequest}.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public class KeyToolGenerateCertificateRequestIT

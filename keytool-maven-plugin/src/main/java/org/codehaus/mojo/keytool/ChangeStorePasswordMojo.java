@@ -24,13 +24,13 @@ import org.codehaus.plexus.util.StringUtils;
 
 /**
  * To change the store password of a keystore.
- * <p/>
- * <p/>
+ *
+ *
  * Implemented as a wrapper around the SDK {@code keytool -storepasswd} command.
- * <p/>
+ *
  * See <a href="http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html">keystore documentation</a>.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 @Mojo( name = "changeStorePassword", requiresProject = true )
@@ -40,7 +40,7 @@ public class ChangeStorePasswordMojo
 
     /**
      * New password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2

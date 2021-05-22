@@ -33,7 +33,7 @@ import java.util.Arrays;
 /**
  * abstract test of a keytool request.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.1
  */
 public abstract class AbstractKeyToolRequestIT<R extends KeyToolRequest>

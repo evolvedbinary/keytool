@@ -19,7 +19,7 @@ package org.codehaus.mojo.keytool;
 /**
  * Specifies the common parameters used to control a KeyTool tool invocation.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @version $Id$
  * @since 1.1
  */

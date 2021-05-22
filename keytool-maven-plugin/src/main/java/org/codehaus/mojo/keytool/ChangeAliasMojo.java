@@ -24,14 +24,14 @@ import org.codehaus.plexus.util.StringUtils;
 
 /**
  * To change an entry alias into a keystore.
- * <p/>
- * <p/>
+ *
+ *
  * Implemented as a wrapper around the SDK {@code keytool -keyclone} (jdk 1.5) or {@code keytool -changealias} (jdk 1.6)
  * command.
- * <p/>
+ *
  * See <a href="http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html">keystore documentation</a>.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 @Mojo( name = "changeAlias", requiresProject = true )
@@ -41,7 +41,7 @@ public class ChangeAliasMojo
 
     /**
      * Destination alias.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -51,7 +51,7 @@ public class ChangeAliasMojo
 
     /**
      * Key password.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2

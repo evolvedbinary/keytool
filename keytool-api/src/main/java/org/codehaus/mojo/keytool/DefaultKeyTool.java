@@ -26,7 +26,7 @@ import org.codehaus.plexus.component.annotations.Requirement;
 /**
  * Default implementation of component {@link KeyTool}.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @version $Id$
  * @since 1.1
  */

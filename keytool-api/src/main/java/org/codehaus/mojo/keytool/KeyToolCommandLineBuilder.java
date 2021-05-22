@@ -22,7 +22,7 @@ import org.codehaus.plexus.logging.Logger;
 /**
  * To build the command line for a given {@link KeyToolRequest}.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @version $Id$
  * @since 1.1
  */
@@ -35,7 +35,7 @@ public interface KeyToolCommandLineBuilder
 
     /**
      * Test if given request type is supported by the underlined keytool implementation.
-     * <p/>
+     *
      * <strong>Note:</strong> a request of a none supported type will then thrown a {@link UnsupportedKeyToolRequestException} in method {@link #build(KeyToolRequest)}
      *
      * @param requestType type of request to test
@@ -52,6 +52,8 @@ public interface KeyToolCommandLineBuilder
      * @return the prepared commandline client ready to be executed
      * @throws CommandLineConfigurationException
      *          if could not find keytool executable
+     * @throws UnsupportedKeyToolRequestException
+     *          if the request is unsupported
      */
     Commandline build( KeyToolRequest request )
         throws CommandLineConfigurationException, UnsupportedKeyToolRequestException;
@@ -72,7 +74,7 @@ public interface KeyToolCommandLineBuilder
 
     /**
      * Checks that builder is ready to produce commandline from incoming request.
-     * <p/>
+     *
      * Says a logger is set and a keytool executable location is setted.
      */
     void checkRequiredState();
@@ -81,6 +83,8 @@ public interface KeyToolCommandLineBuilder
      * Checks that builder can build the given type of request.
      *
      * @param request request to test
+     * @throws UnsupportedKeyToolRequestException
+     *          if the request is unsupported
      * @since 1.3
      */
     void checkSupportedRequest( KeyToolRequest request )

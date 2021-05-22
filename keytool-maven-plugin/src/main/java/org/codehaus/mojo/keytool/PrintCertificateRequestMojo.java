@@ -24,14 +24,14 @@ import java.io.File;
 
 /**
  * To print the content of a certificate request.
- * <p/>
+ *
  * Implemented as a wrapper around the SDK {@code keytool -printcertreq} command.
- * <p/>
+ *
  * <strong>Note</strong> This operation was not implemented by the keytool before jdk 1.7.
- * <p/>
+ *
  * See <a href="http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html">keystore documentation</a>.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 @Mojo(name = "printCertificateRequest", requiresProject = true)
@@ -41,7 +41,7 @@ public class PrintCertificateRequestMojo
 
     /**
      * Input file name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2

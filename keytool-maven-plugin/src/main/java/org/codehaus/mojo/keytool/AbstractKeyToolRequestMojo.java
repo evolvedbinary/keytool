@@ -32,7 +32,7 @@ import java.io.File;
  * Abstract keytool mojo implementing the {@link KeyToolRequest}.
  *
  * @param <R> generic type of request used by the mojo
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 public abstract class AbstractKeyToolRequestMojo<R extends KeyToolRequest>
@@ -41,7 +41,7 @@ public abstract class AbstractKeyToolRequestMojo<R extends KeyToolRequest>
 
     /**
      * List of additional arguments to append to the keytool command line.
-     * <p/>
+     *
      * <strong>Note: This parameter is left for compatibility reasons but
      * should be used as a last resort when parameters are not found in a
      * dedicated mojo due to possible side-effects on parameters

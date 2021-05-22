@@ -27,7 +27,7 @@ import java.util.List;
 /**
  * To build the command line for a given {@link org.codehaus.mojo.keytool.KeyToolRequest}.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @version $Id$
  * @since 1.1
  */

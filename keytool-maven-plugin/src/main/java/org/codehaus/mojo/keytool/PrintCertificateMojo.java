@@ -24,12 +24,12 @@ import java.io.File;
 
 /**
  * To print the content of a certificate.
- * <p/>
+ *
  * Implemented as a wrapper around the SDK {@code keytool -printcert} command.
- * <p/>
+ *
  * See <a href="http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html">keystore documentation</a>.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @since 1.2
  */
 @Mojo( name = "printCertificate", requiresProject = true )
@@ -39,7 +39,7 @@ public class PrintCertificateMojo
 
     /**
      * Output in RFC style.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -49,7 +49,7 @@ public class PrintCertificateMojo
 
     /**
      * Input file name.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -59,7 +59,7 @@ public class PrintCertificateMojo
 
     /**
      * SSL server host and port.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2
@@ -69,7 +69,7 @@ public class PrintCertificateMojo
 
     /**
      * Signed jar file.
-     * <p/>
+     *
      * See <a href="http://docs.oracle.com/javase/1.5.0/docs/tooldocs/windows/keytool.html#Commands">options</a>.
      *
      * @since 1.2

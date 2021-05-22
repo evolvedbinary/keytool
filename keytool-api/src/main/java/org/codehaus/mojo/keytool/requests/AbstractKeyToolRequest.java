@@ -24,7 +24,7 @@ import java.io.File;
 /**
  * Specifies the commons parameters used to control a key tool invocation.
  *
- * @author tchemit <chemit@codelutin.com>
+ * @author <a href="mailto:chemit@codelutin.com">tchemit</a>
  * @version $Id$
  * @since 1.1
  */
@@ -35,7 +35,7 @@ public abstract class AbstractKeyToolRequest
 
     /**
      * Verbose output.
-     * <p/>
+     *
      * See <a href="http://java.sun.com/javase/6/docs/technotes/tools/windows/keytool.html#Options">options</a>.
      */
     private boolean verbose;
