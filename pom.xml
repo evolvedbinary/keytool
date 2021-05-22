@@ -21,7 +21,7 @@
   <parent>
     <artifactId>mojo-parent</artifactId>
     <groupId>org.codehaus.mojo</groupId>
-    <version>33</version>
+    <version>36</version>
   </parent>
 
   <groupId>com.evolvedbinary.thirdparty.org.codehaus.mojo</groupId>
@@ -108,14 +108,24 @@
     <url>https://github.com/evolvedbinary/keytool/issues/</url>
   </issueManagement>
   <ciManagement>
-    <system>github</system>
+    <system>ghactions</system>
     <url>https://github.com/evolvedbinary/keytool/actions/workflows/ci.yml</url>
   </ciManagement>
   <distributionManagement>
     <site>
       <id>github</id>
-      <url>https://github.com/evolvedbinary/keytool.git</url>
+      <url>https://github.com/evolvedbinary/keytool</url>
     </site>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <name>Nexus Snapshots Repository</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>sonatype-nexus-staging</id>
+      <name>Nexus Release Repository</name>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
   </distributionManagement>
 
   <properties>
