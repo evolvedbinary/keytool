@@ -50,6 +50,11 @@
           <verbose>true</verbose>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>2.6.1</version>
+      </plugin>
     </plugins>
   </build>
 </project>
